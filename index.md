@@ -85,31 +85,31 @@ title: プライバシーポリシー
 
 1. 当社は、本サービスの提供にあたり、LINEヤフー株式会社が提供する以下のサービスを利用しています。<br>
 
-- LINEミニアプリ（LIFF）（LINEログイン・ミニアプリ基盤サービス）<br>
+ - LINEミニアプリ（LIFF）（LINEログイン・ミニアプリ基盤サービス）<br>
 
-- LINE Messaging API（メッセージ配信サービス）<br>
+ - LINE Messaging API（メッセージ配信サービス）<br>
 
 2. 当社は、本サービスの提供にあたり、Google（シンガポールに所在するGoogle Asia Pacific Pte. Ltd.および／またはその関連会社をいい、当社に対する認定リセラーであるグーグル・クラウド・ジャパン合同会社を含みます。以下同じ。）が提供する以下のサービスを利用しています。<br>
 
-- Firebase Authentication（認証サービス）<br>
+ - Firebase Authentication（認証サービス）<br>
 
-- Cloud Firestore（データベースサービス）<br>
+ - Cloud Firestore（データベースサービス）<br>
 
-- Firebase Realtime Database（リアルタイムデータ同期サービス）<br>
+ - Firebase Realtime Database（リアルタイムデータ同期サービス）<br>
 
-- Cloud Functions（サーバーレス実行サービス）<br>
+ - Cloud Functions（サーバーレス実行サービス）<br>
 
-- Firebase Hosting（ウェブホスティングサービス）<br>
+ - Firebase Hosting（ウェブホスティングサービス）<br>
 
-- Firebase App Check（不正アクセス防止サービス）<br>
+ - Firebase App Check（不正アクセス防止サービス）<br>
 
-- Google Cloud Fraud Defence（reCAPTCHA）（不正アクセス・なりすまし防止サービス）<br>
+ - Google Cloud Fraud Defence（reCAPTCHA）（不正アクセス・なりすまし防止サービス）<br>
 
-- Cloud Tasks（処理の遅延実行サービス）<br>
+ - Cloud Tasks（処理の遅延実行サービス）<br>
 
-- Cloud Scheduler（定時実行サービス）<br>
+ - Cloud Scheduler（定時実行サービス）<br>
 
-- Cloud Logging（動作記録の保存サービス）<br>
+ - Cloud Logging（動作記録の保存サービス）<br>
 
 3. 前項の各サービスにおけるユーザーの個人情報の取扱いは、当社とGoogleとの間の契約に基づき、当社の指示の範囲内に限られます。ただし、Firebase Hosting および Firebase Realtime Database については、サービスの提供および運用に伴う技術的な記録（IPアドレス、ユーザーエージェント等）が、Googleにおいて同社の定めに従って取り扱われる場合があります。<br>
 
@@ -169,24 +169,24 @@ title: プライバシーポリシー
 
 3. 各サービスにおけるデータの保存および処理の場所は、次のとおりです。<br>
 
-(1) 日本（東京リージョン）<br>
-・順番待ちの登録内容、クーポンに関する情報（Cloud Firestore）<br>
-・お問い合わせに関する情報（Cloud Firestore）
-・サーバー上の処理（Cloud Run functions、Cloud Tasks、Cloud Scheduler）<br>
-・システムの動作記録（Cloud Logging）<br>
+ (1) 日本（東京リージョン）<br>
+ ・順番待ちの登録内容、クーポンに関する情報（Cloud Firestore）<br>
+ ・お問い合わせに関する情報（Cloud Firestore）
+ ・サーバー上の処理（Cloud Run functions、Cloud Tasks、Cloud Scheduler）<br>
+ ・システムの動作記録（Cloud Logging）<br>
 
-(2) シンガポール<br>
-・順番待ちの状況をリアルタイムに配信するためのデータ（待機組数、呼び出し済みの整理番号等。Firebase Realtime Database）<br>
-本サービスが利用するリアルタイム配信基盤は、技術上の制約により日本国内のリージョンを選択することができないため、シンガポールに所在するサーバーを使用しています。<br>
+ (2) シンガポール<br>
+ ・順番待ちの状況をリアルタイムに配信するためのデータ（待機組数、呼び出し済みの整理番号等。Firebase Realtime Database）<br>
+ 本サービスが利用するリアルタイム配信基盤は、技術上の制約により日本国内のリージョンを選択することができないため、シンガポールに所在するサーバーを使用しています。<br>
 
-(3) アメリカ合衆国<br>
-・認証に関する情報（Firebase Authentication）<br>
-Googleは、当該サービスが米国内のデータセンターからのみ提供され、データの処理も米国内でのみ行われる旨を公表しています。<br>
+ (3) アメリカ合衆国<br>
+ ・認証に関する情報（Firebase Authentication）<br>
+ Googleは、当該サービスが米国内のデータセンターからのみ提供され、データの処理も米国内でのみ行われる旨を公表しています。<br>
 
-(4) 具体的な国または地域を特定することができないもの<br>
-・ウェブサイトの配信に関する情報（Firebase Hosting）<br>
-・不正アクセス・なりすまし防止のための検証（Firebase App Check、Google Cloud Fraud Defense）<br>
-これらのサービスは保存場所の選択が提供されておらず、当社が締結している利用規約上、Googleまたはその代理人が施設を維持するいずれの場所においてもデータの処理および保存が行われる旨が定められています。このため、当社において具体的な国または地域を特定することができません。参考となる情報として、Googleはアメリカ合衆国を含む世界各国にデータセンターおよびサーバーを設置していることを公表しています。<br>
+ (4) 具体的な国または地域を特定することができないもの<br>
+ ・ウェブサイトの配信に関する情報（Firebase Hosting）<br>
+ ・不正アクセス・なりすまし防止のための検証（Firebase App Check、Google Cloud Fraud Defense）<br>
+ これらのサービスは保存場所の選択が提供されておらず、当社が締結している利用規約上、Googleまたはその代理人が施設を維持するいずれの場所においてもデータの処理および保存が行われる旨が定められています。このため、当社において具体的な国または地域を特定することができません。参考となる情報として、Googleはアメリカ合衆国を含む世界各国にデータセンターおよびサーバーを設置していることを公表しています。<br>
 
 4. 前項にかかわらず、当社が締結している利用規約上、ユーザーのデータは、Googleまたはその代理人が施設を維持するいずれの国においても、一時的に保存され、またはキャッシュされる場合があります。<br>
 
